@@ -1,0 +1,71 @@
+
+h1{
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+button{
+    padding: 8px;
+    border-radius: 10px;
+    background-color: lightseagreen;
+    margin: 5px;
+    margin-left: 40vw;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-size: larger;
+}
+
+
+#highscore{
+    text-align: left;
+}
+
+#timer{
+    text-align: right;
+    margin-right: 10vw;
+}
+
+#initials{
+    width: 10%;
+    padding: 5px 10px;
+    margin: 8px 20px;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+
+#score-input{
+    text-align: center;
+}
+
+
+
+#submit-button{
+    text-align: center;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: lightseagreen;
+    margin: 5px;
+    margin-left: 0;
+}
+
+#clear-highscores,
+#go-back{
+    display: block;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: lightseagreen;
+    margin: 5px;
+    margin-left: 40vw;
+}
+
+
+

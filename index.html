@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code-Quiz</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <a id="highscore" href="./highscore.html" target="_blank"
+      >View Highscores</a
+    >
+
+    <p id="timer">timer</p>
+
+    <div id="welcome-page">
+      <h1>Dog Quiz</h1>
+      <p>
+        This is a quiz about Dogs. If you do not finish in time your score will
+        be 0.
+      </p>
+      <ul>
+        <li><button id="start-button">Start Quiz</button></li>
+      </ul>
+    </div>
+
+    <div id="question-1">
+      <h2>Question:1</h2>
+      <p>How much better is a Dog's sense of smell compared to a humans?</p>
+      <ul>
+        <li><button id="not-correct">1. 100,000 times better</button></li>
+        <li><button id="not-correct">2. It's actually worse!</button></li>
+        <li><button id="correct">3. 40 times better</button></li>
+        <li><button id="not-correct">4. 10 times better</button></li>
+      </ul>
+    </div>
+
+    <div id="question-2">
+      <h2>Question:2</h2>
+      <p>Why do dogs love us?</p>
+      <ul>
+        <li><button id="not-correct">1. Because we are awesome</button></li>
+        <li><button id="not-correct">2. Because they are awesome</button></li>
+        <li><button id="not-correct">3. Because we feed them</button></li>
+        <li><button id="correct">4. All of the above!</button></li>
+      </ul>
+    </div>
+
+    <div id="question-3">
+      <h2>Question:3</h2>
+      <p>What type of meat should dogs not eat raw?</p>
+      <ul>
+        <li><button id="not-correct">1. Turkey</button></li>
+        <li><button id="correct">2. Pork</button></li>
+        <li><button id="not-correct">3. Beef</button></li>
+        <li><button id="not-correct">4. Chicken</button></li>
+      </ul>
+    </div>
+
+    <div id="question-4">
+      <h2>Question:4</h2>
+      <p>How many teeth do dogs have?</p>
+      <ul>
+        <li><button id="not-correct">1. 46</button></li>
+        <li><button id="not-correct">2. 32</button></li>
+        <li><button id="not-correct">3. 24</button></li>
+        <li><button id="correct">4. 42</button></li>
+      </ul>
+    </div>
+
+    <div id="question-5">
+      <h2>Question:5</h2>
+      <p>
+        How many purebred dogs breeds are recognized by the American Kennel
+        Club?
+      </p>
+      <ul>
+        <li><button id="correct">1. 200</button></li>
+        <li><button id="not-correct">2. 302</button></li>
+        <li><button id="not-correct">3. 104</button></li>
+        <li><button id="not-correct">4. 164</button></li>
+      </ul>
+    </div>
+
+    <div id="score-input">
+      <h1 id="score-number">Your final score is:</h1>
+      <p>Please enter your initials to submit your score!!!</p>
+      <input placeholder="initials" id="initials" />
+      <br />
+      <button id="submit-button">submit</button>
+    </div>
+
+    <div id="highscore-sheet">
+      <h1>Highscores!</h1>
+      <ol id=highscores-tally>
+        
+      </ol>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
